@@ -127,6 +127,7 @@ class MarktguruConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                         SelectSelectorConfig(
                             options=KNOWN_RETAILERS,
                             multiple=True,
+                            custom_value=True,
                             mode=SelectSelectorMode.DROPDOWN,
                         )
                     ),
@@ -212,6 +213,7 @@ class MarktguruOptionsFlow(config_entries.OptionsFlow):
                         SelectSelectorConfig(
                             options=KNOWN_RETAILERS,
                             multiple=True,
+                            custom_value=True,
                             mode=SelectSelectorMode.DROPDOWN,
                         )
                     ),

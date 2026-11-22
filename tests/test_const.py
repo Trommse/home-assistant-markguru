@@ -37,3 +37,6 @@ class TestConstants:
 
     def test_api_limit(self):
         assert API_LIMIT == 24
+
+    def test_known_retailers_contains_trinkgut(self):
+        assert "trinkgut" in KNOWN_RETAILERS

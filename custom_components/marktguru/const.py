@@ -39,6 +39,7 @@ KNOWN_RETAILERS = [
     "Comet",
     "Budni",
     "Plaza",
+    "trinkgut",
 ]
 
 API_URL = "https://api.marktguru.de/api/v1/offers/search"
